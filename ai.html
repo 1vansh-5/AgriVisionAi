@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Disease Detection | AgriVision AI</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <header>
+
+        <nav>
+
+            <h2>🌱 AgriVision AI</h2>
+
+            <div>
+                <a href="index.html">Home</a>
+                <a href="ai.html">AI Detection</a>
+                <a href="dashboard.html">Dashboard</a>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <section class="ai-section">
+
+
+        <div class="ai-container">
+
+
+            <div class="ai-content">
+
+
+                <span class="badge">🤖 AI Powered Agriculture</span>
+
+
+                <h1>
+                    Smart Crop Disease Detection
+                </h1>
+
+
+                <p>
+                    Upload your crop leaf image and our AI model will analyze plant health,
+                    identify diseases and provide treatment recommendations.
+                </p>
+
+
+
+                <div class="upload-box">
+
+
+                    <h3>
+                        📷 Upload Crop Image
+                    </h3>
+
+
+                    <input type="file" id="cropImage" accept="image/*">
+
+
+                    <img id="previewImage" style="display:none; width:260px; border-radius:20px; margin-top:20px;">
+
+
+
+                    <button id="scanBtn">
+                        🔍 Analyze Crop
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+            <div class="scanner-card">
+
+
+                <div class="scan-circle">
+
+                    🌱
+
+                </div>
+
+
+                <h2>
+                    AI Analysis
+                </h2>
+
+
+                <p>
+                    Scanning crop patterns...
+                </p>
+
+
+                <div class="progress">
+
+                    <div></div>
+
+                </div>
+
+
+                <div class="scan-info">
+
+                    <span>🧠 Vision Transformer Model</span>
+
+                    <span>⚡ Fast Prediction</span>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <section class="prediction">
+
+
+        <h1>
+            🌿 Disease Prediction Result
+        </h1>
+
+
+
+        <div class="result-card" id="result">
+
+
+            <h2>
+                Upload an image to start AI analysis
+            </h2>
+
+
+            <p>
+                Your crop health report will appear here.
+            </p>
+
+
+            <div class="confidence-box">
+
+                <span>🎯 Confidence Score</span>
+
+                <h3>
+                    --
+                </h3>
+
+            </div>
+
+
+            <div class="treatment-box" id="treatment">
+                🌱 Treatment recommendation will appear here.
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <footer>
+
+        <p>
+            © 2026 AgriVision AI | Smart Agriculture Solution
+        </p>
+
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
